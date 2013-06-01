@@ -27,14 +27,13 @@ now = datetime.now()
 AGENT = 'Yellow Pages Monitor'
 
 #-----------------------------------------------------------------------------
-
+# 
 #-----------------------------------------------------------------------------
 
 class YellowSpider(object):
 
     def __init__(self, db_name, root):
-        '''
-        INSIGHT FEVER WEB-CRAWLER
+        ''' YELLOW PAGES WEB-CRAWLER
         @db_name    - name of the database to store scrappings
         @root       - root url from which to begin the scrape
         '''
